@@ -8,10 +8,10 @@ position: Postdoctoral Fellow
 #subsequent:  update once you become an alumnus
 pronouns: He/His/Him 
 email: samith.ir (at) concordia.ca
-#scholar: mjftq9AAAAAJ
+scholar: mjftq9AAAAAJ
 #website: N/A
 #UCSF: XXXXXXXX #UCSF Profile ID - Employees only
-#twitter: samithzzz
+twitter: samithzzz
 #linkedin: N/A
 #github: N/A
 #orcid: N/A
