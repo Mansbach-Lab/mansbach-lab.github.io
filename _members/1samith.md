@@ -7,14 +7,14 @@ altimage: /static/img/members/samith_pb.jpg #365 x 365 pixels, 72 dpi
 position: Postdoctoral Fellow 
 #subsequent:  update once you become an alumnus
 pronouns: He/His/Him 
-email: samith.ir@concordia.ca
-#scholar:
+email: samith.ir (at) concordia.ca
+#scholar: N/A
 #website: N/A
 #UCSF: XXXXXXXX #UCSF Profile ID - Employees only
 #twitter: samithzzz
 #linkedin: N/A
-#github: 
-#orcid: 
+#github: N/A
+#orcid: N/A
 #description: ""
 ---
 
