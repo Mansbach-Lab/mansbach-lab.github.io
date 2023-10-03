@@ -5,6 +5,9 @@ group: home
 ---
 
 # Welcome to the Mansbach Lab!
+
+![Mansbach lab poster](static/img/labgroup20230509.jpg){:style="max-width: 100%; height: auto;"}
+
 {: .display-4}
 <br>
 We are part of the [Department of Physics](https://www.concordia.ca/artsci/physics.html) and affiliated with the [Centre for Research in Molecular Modeling](https://www.concordia.ca/research/molecular-modeling.html) 
