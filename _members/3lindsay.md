@@ -14,6 +14,6 @@ email: lindsay.wright (at) mail.concordia.ca #Preferred public email address
 #twitter: username
 #linkedin: username
 github: lindsaywright2
-#orcid: XXXX-XXXX-XXXX-XXXX
+orcid: 0009-0006-9067-7825
 description: ""
 ---
