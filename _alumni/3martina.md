@@ -13,6 +13,6 @@ scholar:  #Google Scholar User ID
 twitter: 
 linkedin: martina-mai
 github: martymai
-orcid: 
+orcid: 0009-0008-1520-2007
 description: ""
 ---
