@@ -72,6 +72,10 @@ Giving correct credit to folks for work done is very important to me, and this h
 
 Of course, in addition to the nuts and bolts of research, there's also the formal business of graduate school milestones, which are somewhat different depending on whether you are a MSc or a PhD student. Please make sure you interface with the graduate program advisor and understand the policies and requirements of our university! You are required to take three courses (I'm happy to help pick out the most useful ones), and ***if you get a failing grade you will have to withdraw from the program.  Please do not fail a course*** (if you're struggling in a course you can (1) reach out to the professor and see if they think you'll be able to do well and if so what you would need to do (2) if need be, drop or disc it.  This isn't ideal but it's much, much better than failing.)
 
+### Letters of Recommendation
+
+In general, anyone who performs research in the lab can expect to have me write a letter of recommendation for them. However, please ensure that you request your letters at least two weeks before the deadline. This ensures that I can both write you a decent letter and that I am not having to postpone matters for other students. I understand that sometimes events out of control can lead to a last-minute request, and I will do my best to honor reasonable ones, but please realize that this is not an easy thing to do and may compromise the quality of the letter I write for you.
+
 ### Asking For Help
 
 Please come to me if something is going wrong and don't wait until it has already gone very wrong! Whether it's a mistake you made in your coding that means you're not sure of your results or a class that you bombed the midterm on, the longer you wait to tell me, the harder it is going to be for me to help you with.  I'm much likelier to be frustrated if there ends up being a really bad situation because you didn't tell me than I am likely to be frustrated if you come to me in time for us to brainstorm fixes.  I don't need you to be perfect, but I do expect you to reach out for help when it's needed.
