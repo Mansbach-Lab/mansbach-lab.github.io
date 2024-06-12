@@ -6,7 +6,7 @@ group: openpositions
 
 # Mansbach Lab Open Positions
 
-There are currently three open positions in our lab for MSc or PhD students with a strong physics and computational background. The most important skills we are looking for are statistical mechanics and machine learning.
+We have no open positions at this time.  See below for some examples of projects that may in the future be looking for researchers.
 
 <br>
 <br>
