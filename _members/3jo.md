@@ -2,7 +2,7 @@
 name: Jo Lavoie
 startdate: 2024-05-08
 enddate: 2026-05-08
-#image: /static/img/members/Wright.jpg #365 x 365 pixels, 72 dpi
+image: /static/img/members/jo.jpg #365 x 365 pixels, 72 dpi
 #altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
 position: MSc student
 #subsequent:  update once you become an alumnus
