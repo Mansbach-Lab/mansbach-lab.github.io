@@ -15,5 +15,5 @@ twitter: hezekiahfatoki
 linkedin: hezekiahfatoki 
 github: Heze-Sapience 
 orcid: 0000-0003-3202-9855
-description: "My current research is at the intersection of computational physics and Biochemistry, where I am investigating a novel antimicrobial peptide."
+description: "My current research is at the intersection of computational physics, bioinformatics, and biochemistry; where I am investigating a novel antimicrobial peptide."
 ---
