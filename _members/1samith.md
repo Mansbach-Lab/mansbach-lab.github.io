@@ -13,7 +13,7 @@ scholar: mjftq9AAAAAJ
 #UCSF: XXXXXXXX #UCSF Profile ID - Employees only
 #twitter: samithzzz
 #linkedin: N/A
-github: https://github.com/samzrath
+github: samzrath
 #orcid: N/A
 #description: ""
 ---
