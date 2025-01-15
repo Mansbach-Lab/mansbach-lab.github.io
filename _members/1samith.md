@@ -11,9 +11,9 @@ email: samith.ir (at) concordia.ca
 scholar: mjftq9AAAAAJ
 #website: N/A
 #UCSF: XXXXXXXX #UCSF Profile ID - Employees only
-twitter: samithzzz
+#twitter: samithzzz
 #linkedin: N/A
-#github: N/A
+github: https://github.com/samzrath
 #orcid: N/A
 #description: ""
 ---
