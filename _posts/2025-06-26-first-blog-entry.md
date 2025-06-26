@@ -1,9 +1,31 @@
 ---
 published: True
-title: Hello World!
+title: On Large Language Models and Why I'm Not Anne Rice
 author: Reiy Mansbach
 layout: post
 group: news
 ---
 
-Today I am blogging in Markdown
+Large Language Models (LLMs) have been thrust aggressively into the public sphere lately, along with other forms of “generative AI[^fn1],” and have generated quite a bit of conflict.  Many creators have loudly decried the way that most of these LLMs/genAI models are trained by stealing (scraping) their work, while others have adopted them as tools that allow them to better express themselves.
+
+I was talking to a good acquaintance the other day, when he waxed eloquent about how useful these models were for him or for others who had disabilities that made it particularly difficult for them to create writing or visual art.  The conversation, like many conversations surrounding the topic, was quite fraught, and at one point he expostulated (paraphrased), that he found it offensive that authors would try to stop other people from continuously thinking about and being inspired by their words.  “That just makes you Anne Rice,” he said.
+
+Some important context and background: my job is in research closely aligned to generative AI (although we primarily use the tools to try to discover new antibiotics in conjunction with other biophysical techniques), while one of my major hobbies is writing fanfiction.  Fanfiction refers to writing stories about other authors’ characters or stories.  Often these stories are posted on the Internet, on a site like [Archive Of Our Own](http://archiveofourown.org/), where other people can read them for free. Anne Rice was the author of *Interview with a Vampire* (and many other novels), who is somewhat infamous in fanfiction circles for her aggressive legal pursuit of fanfiction writers, because she believed that it was inappropriate for others to write her characters into scenarios she didn’t [agree with](https://kotaku.com/it-used-to-be-perilous-to-write-fanfiction-1826083509). So what my acquaintance was claiming was essentially that people publishing fanfiction who didn’t want their stories used to train LLM models was that they were unreasonably attempting to control how other people were inspired by their work, after making that work public for anyone to read.  As a fanfiction writer myself, this would obviously make me a hypocrite.
+
+My acquaintance was wrong: I’m not Anne Rice.  I do understand how he got to this point, but it’s very important to me to clarify the distinction.  In fact, one of the reasons it’s so important to me is that it’s taken me several years to put my *own* finger on the difference!  When I was first introduced to the idea of training LLMs on text scraped from the internet or visual models on downloaded art, I didn’t understand why other creators were calling this “theft.” After all, we *had* posted these works publicly, and as an “AI”-aligned researcher myself, I knew that the model was in some sense just doing what a reader would do, but much faster:  scanning through the work for patterns, which it could then use to produce text or images that were similarly-shaped to its inputs.  The model doesn’t directly reproduce the work, nor does it store it[^fn2], it uses it to update the internal function to better create things that seem similar.
+
+So…what’s the difference?
+
+The difference is in *interpretation*.  When a person reads my work and is inspired by it—which I want them to be!—they may not interpret it in the way I intended them to.  In fact, they may pick up a very different message from the one I put down.  There’s a reason that some fans of Tolkien are feminists like me and others are white supremacists, a philosophy I abhor.  We all come in to a work with our own contexts, experiences, and understandings, which shape how we interpret it.  But that person still needs to read exactly what I wrote.  When an LLM model is trained on my words, it does not come in with context, understanding, or interpretation.  Even if the subtask it performs of trying to make human-like text is similar to a human author, it does not exist in the world outside of the internet.  It does not have the context to understand what it’s reading. It *only* performs the subtask of making text like a human.  It does not *interpret*[^fn3].  So, when some other person uses the model to aid in expressing their own ideas, they don’t have to be influenced by mine at all.  They can use my words to support any point, without having to actually engage with the ways I’ve used those words, and the stories I’ve tried to tell.  
+
+If someone with whom I have deep philosophical disagreements reads my fic and is inspired by it and writes a new story that comes from a place I view as reprehensible, I’m not going to be exactly *happy* about that.  But they have at least *listened to me* before doing it.  They basically have to.  But the LLM breaks this contract.  Now there’s no “listening” stage.  A person can directly take my craft (admittedly it likely requires mine and many others) and stitch it together to support any viewpoint.  
+
+My words aren’t just there to sound like a human.  They aren’t there to be chaff that supports any point.  They are my voice.  If you aren’t willing to listen to me in the first place, no, I don’t want you using my skill as part of your tool.
+
+To my acquaintance: this isn’t listening and being inspired by me at all!  This isn’t continuing to think about what I had to say!  You never listened to *me* to begin with.  I don’t need you to agree with me on fair and reasonable ways to use LLMs.  I do need you to understand why I’m not Anne Rice.
+
+[^fn1]: Like the authors of “[The AI Con](https://thecon.ai/),” Emily Bender and Alex Hanna, I am not a fan of the term “Artificial Intelligence,” which I think is a misnomer and a buzzword at best, so in the rest of the text I will tend to try to avoid it, or set it off with quotation marks.
+
+[^fn2]: This statement is a little generous. There is evidence of models directly or indirectly [plagiarizing inputs](https://dl-acm-org.lib-ezproxy.concordia.ca/doi/10.1145/3543507.3583199), and it would be more correct to say that it doesn’t store the information in the same form in which it first encountered it, but to be very strictly fair, this is also true of humans.
+
+[^fn3]: I will note this argument is also made in The AI Con, but the whole thing didn’t click for me until a few days after I finished reading that book.
