@@ -18,6 +18,10 @@
   link: "/compact"
   group: compact
 
+- name: blog
+  link: "/blog"
+  group: blog
+  
 - name: news
   link: "/news"
   group: news
