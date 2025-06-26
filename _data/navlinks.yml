@@ -19,7 +19,7 @@
   group: compact
   
 - name: blog
-  link: "/blog"
+  link: "/news"
   group: news
   
 - name: open positions
