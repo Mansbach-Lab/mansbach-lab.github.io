@@ -12,8 +12,8 @@ email: dmytro.perkov (at) protonmail.com
 #website: N/A
 #UCSF: XXXXXXXX #UCSF Profile ID - Employees only
 #twitter: samithzzz
-linkedin: https://www.linkedin.com/in/dmytro-perkov/ # dont remember if it takes the link or just the username
-#github: samzrath
+linkedin: dmytro-perkov # dont remember if it takes the link or just the username
+github: sevenpigeons
 #orcid: N/A
 #description: "No idea"
 ---
