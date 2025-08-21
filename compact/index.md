@@ -78,6 +78,22 @@ By default, for graduate students working in the department of physics whom I am
 
 Precedence is given to students who are beyond their first four years *of the PhD*, because they are not guaranteed a TA position. If you do not receive a TA position, I will do my best to source the funding to support you. Beyond that, if there is still available funding remaining, PhD students who have passed their COMPS are given priority, then MSc students in their final two terms, then other PhD students, then other MSc students. If you are not in the department of physics, or I am not the primary person paying your salary, however, these considerations may not apply. Students who are co-supervised should chat with both me and their co-supervisor. If you receive a paid internship, such as a Mitacs, this will usually be sufficient to cover a buyout as well.  I am willing to discuss the potential of a buyout under any circumstance, so do come talk to me if you need one; this document is meant to establish a default for fairness but not take the place of conversation.
 
+### Lab Data Policy
+
+As of 08/21/2025, I am working on a more comprehensive data policy for the lab, but in the meantime the following applies:
+
+Either (i) go to your Digital Research Alliance of Canada account and consent to the Alliance transferring the ownership of your files to your sponsor without contacting you first OR (ii) immediately let me know you are not comfortable consenting to this.
+
+All code (data analysis OR data generation) should be uploaded to our Github repository, and should be made public at the end of a project, or when the student graduates, whichever comes first.
+
+All "soft" data -- papers, posters, theses, images, *and your lab notebook* should be stored on the Lab Sharepoint. If you do not know how to get to the Lab Sharepoint, ask me! The only exception to this is if your lab notebook is done as a Jupyter notebook or similar, in which case it can be stores on the Github repository. 
+
+All "large" data -- molecular dynamics simulation trajectories, trained machine learning model weights, and similar, should be stored on the Digital Research Alliance of Canada, preferably on two systems for backup.
+
+**ALL DATA, without exception, should be locally backed up on a hard-drive (ask me for a hard drive if you do not have one!)**
+
+*Before graduation*, put ALL your data onto a hard-drive (ask me for a hard drive if you do not have one), LABEL the drive with your last name and the date (I mean with an actual physical sticky label that you stick onto it), and give it to me.  You must ALSO upload a document onto the Sharepoint with the name of the hard drive and a description of what data is stored on there and how it is stored. (For example, something like: "Mansbach 2025" -- this drive contains 5 atomistic simulations of a model of mucus. These simulations are described in [cite paper/cite thesis]. They are found under the file tree "2025/thesiswork/simulations/simsX.xtc").
+
 ### Letters of Recommendation
 
 In general, anyone who performs research in the lab can expect to have me write a letter of recommendation for them. However, please ensure that you request your letters at least two weeks before the deadline. This ensures that I can both write you a decent letter and that I am not having to postpone matters for other students. I understand that sometimes events out of control can lead to a last-minute request, and I will do my best to honor reasonable ones, but please realize that this is not an easy thing to do and may compromise the quality of the letter I write for you.
