@@ -1,12 +1,12 @@
 ---
 title: "Proteins as Biomarkers: The Heroes Behind the Scenes of Diagnosis and Treatment"
-author: "Vrinda"
+author: "Vrinda Nair"
 layout: post
 group: news
 date: 2025-09-10
 ---
 
-Our lab mate Vrinda has published an excellent article on **Proteins as Biomarkers** for Proteo.ca! 
+A PhD student on our team, Vrinda Nair, has published an excellent article on **Proteins as Biomarkers** for Proteo.ca! 
 
 In this piece, Vrinda explores how proteins serve as crucial molecular indicators in medical diagnosis and treatment, acting as the unsung heroes that help clinicians make informed decisions about patient care.
 
