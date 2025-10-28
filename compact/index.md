@@ -80,7 +80,9 @@ Precedence is given to students who are beyond their first four years *of the Ph
 
 ### Lab Data Policy
 
-As of 08/21/2025, I am working on a more comprehensive data policy for the lab, but in the meantime the following applies:
+As of 10/28/2025, I have a rough draft of a formal lab data policy. It is currently primarily described by [these](https://liveconcordia.sharepoint.com/:w:/t/MansbachLabCentralData/EXSt5E1qwsdCnriiJRnsIbsBgIOAsntJJsU45Oo_FunRIg?e=1WfQbJ) [documents](https://liveconcordia.sharepoint.com/:p:/t/MansbachLabCentralData/EfpYoBo_SSpFjGzi6_-VTLYBt9MElXjj3R3HrndQUr-_Gw?e=zWBqOj), with supporting documentation in [this folder](https://liveconcordia.sharepoint.com/:f:/t/MansbachLabCentralData/Emhu7Q7yjENJiabl6v43Po0BbA6bC9h2JGSsoQ3J75U9-A?e=2ULgk5).
+
+Through March 2026, I will be accepting feedback and modifications. By the beginning of the fall term 2026, I expect this policy to be fully implemented. Paired down, here are the MOST IMPORTANT POINTS that MUST BE DONE lest I lose access to your data:
 
 Either (i) go to your Digital Research Alliance of Canada account and consent to the Alliance transferring the ownership of your files to your sponsor without contacting you first OR (ii) immediately let me know you are not comfortable consenting to this.
 
