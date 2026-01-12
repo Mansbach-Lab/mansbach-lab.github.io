@@ -5,21 +5,27 @@ group: research
 ---
 
 # Our research
-Proteins are the building blocks of living things, miniature motors that make all of your cells function. Proteins embedded in cell membranes filter out toxic materials or uptake necessary nutrients. Meanwhile, malfunctioning proteins are responsible for a slew of disorders, including Alzheimer's, type II diabetes and Parkinson's. Our group works on understanding and designing small molecules and peptides for therapeutic applications such as combatting antimicrobial resistance or finding new analgesics for treatment of chronic pain disorders. We use a combination of machine learning techniques and computational modeling techniques such as molecular dynamics simulations.
+Proteins are the building blocks of living things, miniature motors that make all of your cells function. Proteins embedded in cell membranes filter out toxic materials or uptake necessary nutrients. Short proteins called peptides help your immune system fight off bacteria, while super long proteins called mucins form into the protective hydrogel coating we call mucus that controls what can enter our bodies in our eyes, lungs, and gut. Meanwhile, malfunctioning proteins are implicated in a slew of disorders, including Alzheimer's disease, type II diabetes and cystic fibrosis. Our group works on understanding and designing proteins and peptides for biomaterials and therapeutic applications. We use a combination of machine learning techniques and computational modeling techniques such as molecular dynamics simulations.
 <br>
 <br>
 
-### Antimicrobial Peptide Design
+### Machine Learning for Peptide Design
 
-With dwindling drug leads and increasing fatalities from multidrug-resistant bacteria, we are teetering on the brink of the post-antibiotic era. New design techniques and approaches for both understanding of antibiotic resistance and design of novel therapeutics are urgently needed. One promising line of research for novel drugs with antimicrobial action is the design of peptides with antimicrobial properties that preferentially disrupt the membranes of bacterial cells while displaying a lower affinity for mammalian cells.  This is still an active area of research, with only a few candidate peptides having reached clinical trials, due to the continued existence of unwanted side effects such as serum binding or the requirement of potentially-toxic concentrations to be effective.
+We've all heard of the power of artificial intelligence. And it's true that computers are very fast at sifting through astronomical amounts of data to find or match patterns! But AI techniques are only as good as the data that informs them and the experts who use them, and this is something we all try to keep in mind. In my lab, we develop machine learning-based workflows for peptide design. We strive to create models that are rigorous and understandable and to do so in a societally-informed way. Below, I talk about two of our current favorite applications.
 
-We investigate the development of machine learning models to map out design spaces for antimicrobial peptides (AMPs). Employing both traditional ML models such as support vector machines and generative deep learning models such as variational autoencoders, we assess the design spaces associated with different algorithms. We strive for interpretability, controllability, and the ability to rapidly zero in on peptides of greatest interest.
+#### Antimicrobial Peptides
+
+All things strive to live, and bacteria are no different. When we kill them with antibiotics, some few have mutations that allow them to survive those drugs, and they go on to reproduce, growing the capacity of a bacterial population to be *resistant* to antibiotics like penicillin. Antimicrobial resistance is a growing global health threat that disproportionately affects lower and middle-income countries. In my lab, we are trying to develop peptides that can kill bacteria or ameliorate their toxic effects while possessing properties that mean bacteria grow resistance to them more slowly.
+
+We investigate the development of machine learning models to map out design spaces for such antimicrobial peptides (AMPs). Employing both traditional ML models such as support vector machines and generative deep learning models such as variational autoencoders, we assess the design spaces associated with different algorithms. We strive for interpretability, controllability, and the ability to rapidly zero in on peptides of greatest interest.
 
 We also perform detailed biophysical characterization of specific candidate peptides of interest. Unlike many large proteins, shorter peptides tend not to be associated with a single native structure, but with a structural ensemble that changes according to environment. This set of accessible structures is responsible for their functions. AMPs, in particular, are often disordered in solution but fold into alpha helices or beta sheets near bacterial membranes, which often affords them the capacity to disrupt the membrane.
 
-One of our most carefully-studied peptides is the AMP GL13K, which is a unique non-toxic peptide that both attacks the cell membranes of bacteria and also interacts in some manner with the bacterial endotoxin LPS. We perform simulations of GL13K and other candidate peptides under different conditions, to understand their structural ensembles and the mechanisms by which they interact with bacterial and host cells. Our goal is to identify properties responsible for membrane disruption, such that we can design peptides with properties that confer bacterial disruption capability or capabilities that protect against bactieral toxins and lacking properties that confer membrane disruption capability.
+One of our most carefully-studied peptides is the AMP GL13K, which is a unique non-toxic peptide that both attacks the cell membranes of bacteria and can also protect the host to a degree against the bacterial endotoxin LPS. We perform simulations of GL13K and other candidate peptides under different conditions, to understand their structural ensembles and the mechanisms by which they interact with bacterial and host cells. Our goal is to identify properties responsible for membrane disruption, such that we can design peptides with properties that confer bacterial disruption capability or capabilities that protect against bactieral toxins and lacking properties that confer membrane disruption capability.
 
+#### Amyloid Scaffolds
 
+Many peptides can form the distinctive cross-beta sheet fibrillar structures (amyloid fibrils) that are a hallmark of certain pathologies, such as Alzheimer's disease. But did you know that peptides that are intended to fold into such a structure can actually be beneficial? They can help us deliver drugs, form scaffolds for cell growth, or be part of nanovaccines! We recently started a collaborative project with the [Bourgeault Lab](https://professeurs.uqam.ca/professeur/bourgault.steve/) at UQAM, in which we are trying to use well-established active learning techniques and search through the latent space of our previously-developed generative deep learning models for peptide sequence design, to try and find sequences that can controllably form into amyloid fibrils. 
 
   <figure>
 <img class="img-fluid" src="/static/img/AMP-basics.png" alt="AMP schematic">
@@ -28,7 +34,6 @@ One of our most carefully-studied peptides is the AMP GL13K, which is a unique n
     </figure>
 
 
-  
 ### Toxins and toxin-based therapeutics
 
 
