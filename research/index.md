@@ -12,6 +12,12 @@ Proteins are the building blocks of living things, miniature motors that make al
 ### Machine Learning for Peptide Design
 
 We've all heard of the power of artificial intelligence. And it's true that computers are very fast at sifting through astronomical amounts of data to find or match patterns! But AI techniques are only as good as the data that informs them and the experts who use them, and this is something we all try to keep in mind. In my lab, we develop machine learning-based workflows for peptide design. We strive to create models that are rigorous and understandable and to do so in a societally-informed way. Below, I talk about two of our current favorite applications.
+  <figure>
+<img class="img-fluid" src="/static/img/AMP-basics.png" alt="AMP schematic">
+    <figcaption> Schematic of AMP design in the Mansbach Lab. Some aspects of the image are modified from Shmilovich, Kirill, et al. "Discovery of self-assembling π-conjugated peptides by active learning-directed coarse-grained molecular simulation." The Journal of Physical Chemistry B 124.19 (2020): 3873-3891.
+</figcaption>
+    </figure>
+
 
 #### Antimicrobial Peptides
 
@@ -23,15 +29,16 @@ We also perform detailed biophysical characterization of specific candidate pept
 
 One of our most carefully-studied peptides is the AMP GL13K, which is a unique non-toxic peptide that both attacks the cell membranes of bacteria and can also protect the host to a degree against the bacterial endotoxin LPS. We perform simulations of GL13K and other candidate peptides under different conditions, to understand their structural ensembles and the mechanisms by which they interact with bacterial and host cells. Our goal is to identify properties responsible for membrane disruption, such that we can design peptides with properties that confer bacterial disruption capability or capabilities that protect against bactieral toxins and lacking properties that confer membrane disruption capability.
 
+  <figure>
+<img class="img-fluid" src="/static/img/openpositions/bayesian_optimization_peptides.gif" alt="AMP traversal">
+    <figcaption> Searching through a deep learning associated design space. Image created by Jyler Menard.
+</figcaption>
+    </figure>
+
 #### Amyloid Scaffolds
 
 Many peptides can form the distinctive cross-beta sheet fibrillar structures (amyloid fibrils) that are a hallmark of certain pathologies, such as Alzheimer's disease. But did you know that peptides that are intended to fold into such a structure can actually be beneficial? They can help us deliver drugs, form scaffolds for cell growth, or be part of nanovaccines! We recently started a collaborative project with the [Bourgeault Lab](https://professeurs.uqam.ca/professeur/bourgault.steve/) at UQAM, in which we are trying to use well-established active learning techniques and search through the latent space of our previously-developed generative deep learning models for peptide sequence design, to try and find sequences that can controllably form into amyloid fibrils. 
 
-  <figure>
-<img class="img-fluid" src="/static/img/AMP-basics.png" alt="AMP schematic">
-    <figcaption> Schematic of AMP design in the Mansbach Lab. Some aspects of the image are modified from Shmilovich, Kirill, et al. "Discovery of self-assembling π-conjugated peptides by active learning-directed coarse-grained molecular simulation." The Journal of Physical Chemistry B 124.19 (2020): 3873-3891.
-</figcaption>
-    </figure>
 
 
 ### Toxins and toxin-based therapeutics
