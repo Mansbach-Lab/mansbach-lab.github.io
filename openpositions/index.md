@@ -17,7 +17,7 @@ We have one open position in the [Mansbach Lab](https://mansbach-lab.github.io/)
 
 **Scientific Background:** Peptides are short proteins that carry out many different functions in an organism; as such, they are biocompatible molecules that form excellent candidates for many therapeutic and biomaterials applications. Generative deep learning has shown significant promise in biomolecular design scenarios, but it suffers from lack of interpretability in general and data sparsity in many peptide-specific scenarios. We are looking for a student interested in developing and using techniques from explainable deep learning and traditional machine learning to improve pipelines for peptide design. There is an option for a focus on either therapeutics design, in particular antimicrobial peptide design, or biomaterials design, in particular design of aggregating peptides with particular supramolecular architectures.
 
-<img src="/static/img/openpositions/longcovid.jpg">
+<img src="/static/img/openpositions/bayesian_optimization_peptides.gif">
 
 **Desired Qualifications:** I am committed to improving equity, diversity, and inclusion in physics and therefore I particularly encourage students from traditionally minoritized groups in STEM to apply to my lab. In addition, if you aren’t sure if you meet the technical qualifications but you’re very interested, please feel free to contact me and ask! 
 
@@ -37,7 +37,8 @@ We have one open position in the [Mansbach Lab](https://mansbach-lab.github.io/)
 
 **Scientific Background:** Antibiotic resistance is a growing threat to global public health in which bacteria stop being treatable by conventional antibiotics like penicillin. One way to combat it is by developing new treatments that either kill bacteria or mitigate their toxic effects without incurring a rapid build-up of resistance. In my lab, we study a unique beta sheet-forming peptide called GL13K, a fragment derived from a protein in human saliva, which can destroy the cell walls of many types of bacteria and also demonstrates a protective effect against the Gram negative bacterial endotoxin lipopolysaccharide. The desirable properties of this peptide depend strongly on the local environment, including the local pH. Furthermore, it is not known how this peptide confers protection against LPS. We are looking for a student interested in employing molecular dynamics simulations and multi-scale modeling to better characterize GL13K and its interactions with bacterial cell membranes and with LPS.
 
-<img src="/static/img/openpositions/photosynthesis.gif">
+<img src="/static/img/openpositions/membrane-peptide1.gif">
+<img src="/static/img/openpositions/membrane-peptide2.gif">
 
 **Desired Qualifications:** I am committed to improving equity, diversity, and inclusion in physics and therefore I particularly encourage students from traditionally minoritized groups in STEM to apply to my lab. In addition, if you aren’t sure if you meet the technical qualifications but you’re very interested, please feel free to contact me and ask! 
 
@@ -57,9 +58,8 @@ We have one opening for a position in the [Mansbach](https://mansbach-lab.github
 
 **Scientific Background**: Our bodies are covered in snot, and that’s not a bad thing! Mucus, which is a complex hydrogel primarily made up of large proteins called mucins, forms the first barrier to entry in our eyes, mouth, lungs, and gut. It is a remarkably useful, multifunctional biological assembly, that has demonstrated potential for many biomedical applications, particularly in the area of wound healing. Due to its complexity, however, it can be difficult to create and control.  We are looking for a student interested in developing a multi-scale model of a mucus-mimicking biopolymer system that will allow us insight into how to design mucus-like biomaterials.
 
-<img src="/static/img/openpositions/AI_anti_design.jpg">  
-  
-<img src="/static/img/openpositions/AI_anti_design2.png">  
+<img src="/static/img/openpositions/muc2rw.gif">  
+<img src="/static/img/openpositions/mucin-head-groups.gif">  
   
   
 **Desired Qualifications**: I am committed to improving equity, diversity, and inclusion in physics and therefore I particularly encourage students from traditionally minoritized groups in STEM to apply to my lab. In addition, if you aren’t sure if you meet the technical qualifications but you’re very interested, please feel free to contact me and ask! 
