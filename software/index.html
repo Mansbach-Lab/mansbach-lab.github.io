@@ -9,8 +9,8 @@ group: software
 
 {% for package in site.software reversed %}
   <hr>
-  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{publication.pmid}}">
-  <div style="font-size: 120% !important; width: 100%">{{ publication.title | markdownify }}</div>
+  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{software.version}}">
+  <div style="font-size: 120% !important; width: 100%">{{ software.title | markdownify }}</div>
   <div>{{ software.authors | markdownify | remove: '<p>' | remove: '</p>' }}
   {{software.pub_date | split: "-" | first }}.</div>
 
@@ -20,30 +20,30 @@ group: software
   		<img class = "img-fluid" src = "{{software.image}}" alt = "Key Figure" style="max-height: 200px;">
   	</div>
   	<ul class="col-sm-6">
-  			<strong>Access the paper</strong>
+  			<strong>{{software.description}}</strong>
   			<!--PMID-->
   			{% if software.pmid %}
-  			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{publication.pmid}}" alt = "pubmed link: {{publication.pmid}}"> {{publication.pmid}}</a></li>
+  			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{software.pmid}}" alt = "pubmed link: {{software.pmid}}"> {{software.pmid}}</a></li>
   			{% endif %}
 
   			<!--PMCID - optional -->
   			{% if software.pmcid %}
-  			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{publication.pmcid}}" alt = "pubmed central link: {{publication.pmcid}}"> {{publication.pmcid}}</a></li>
+  			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{software.pmcid}}" alt = "pubmed central link: {{software.pmcid}}"> {{software.pmcid}}</a></li>
   			{% endif %}
 
   			<!--Biorxiv - optional -->
   			{% if software.biorxiv %}
-  			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{publication.biorxiv}}" alt = "biorxiv preprint link: {{publication.biorxiv}}"> {{publication.biorxiv | split: "." | last }}</a></li>
+  			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{software.biorxiv}}" alt = "biorxiv preprint link: {{software.biorxiv}}"> {{software.biorxiv | split: "." | last }}</a></li>
   			{% endif %}
 
   			<!--Arxiv - optional -->
   			{% if software.arxiv %}
-  			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{publication.arxiv}}" alt = "arxiv preprint link: {{publication.arxiv}}"> {{publication.arxiv}}</a></li>
+  			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{software.arxiv}}" alt = "arxiv preprint link: {{software.arxiv}}"> {{software.arxiv}}</a></li>
   			{% endif %}
 
   			<!--Chemrxiv - optional -->
   			{% if software.chemrxiv %}
-  			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{publication.chemrxiv}}" alt = "chemrxiv preprint link: {{publication.chemrxiv}}"> {{publication.chemrxiv}}</a></li>
+  			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{software.chemrxiv}}" alt = "chemrxiv preprint link: {{software.chemrxiv}}"> {{software.chemrxiv}}</a></li>
   			{% endif %}
 
 
@@ -90,7 +90,7 @@ group: software
   			{% endif %}
 
   <!--additional links - optional-->
-  {% if publication.links %}
+  {% if software.links %}
   <br>
   			<strong>Additional Link{% if software.links.size > 1 %}s{% endif %}</strong>
   				{% for link in software.links %}
