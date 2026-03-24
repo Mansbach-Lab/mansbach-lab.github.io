@@ -1,7 +1,7 @@
 ---
 title: Open-source software from the Mansbach Lab
 layout: default
-group: software
+group: package
 ---
 
 <h1>Software Packages</h1>
@@ -9,91 +9,91 @@ group: software
 
 {% for package in site.software reversed %}
   <hr>
-  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{software.version}}">
-  <div style="font-size: 120% !important; width: 100%">{{ software.title | markdownify }}</div>
-  <div>{{ software.authors | markdownify | remove: '<p>' | remove: '</p>' }}
-  {{software.pub_date | split: "-" | first }}.</div>
+  <div class="row" style="padding-top: 60px; margin-top: -60px;" id="{{package.version}}">
+  <div style="font-size: 120% !important; width: 100%">{{ package.title | markdownify }}</div>
+  <div>{{ package.authors | markdownify | remove: '<p>' | remove: '</p>' }}
+  {{package.pub_date | split: "-" | first }}.</div>
 
   </div>
   <div class="row" style="padding-top: 20px; margin-top: - 20px;">
   	<div class="col-sm-6">
-  		<img class = "img-fluid" src = "{{software.image}}" alt = "Key Figure" style="max-height: 200px;">
+  		<img class = "img-fluid" src = "{{package.image}}" alt = "Key Figure" style="max-height: 200px;">
   	</div>
   	<ul class="col-sm-6">
-  			<strong>{{software.description}}</strong>
+  			<strong>{{package.description}}</strong>
   			<!--PMID-->
-  			{% if software.pmid %}
-  			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{software.pmid}}" alt = "pubmed link: {{software.pmid}}"> {{software.pmid}}</a></li>
+  			{% if package.pmid %}
+  			<li>PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{package.pmid}}" alt = "pubmed link: {{package.pmid}}"> {{package.pmid}}</a></li>
   			{% endif %}
 
   			<!--PMCID - optional -->
-  			{% if software.pmcid %}
-  			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{software.pmcid}}" alt = "pubmed central link: {{software.pmcid}}"> {{software.pmcid}}</a></li>
+  			{% if package.pmcid %}
+  			<li>PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{package.pmcid}}" alt = "pubmed central link: {{package.pmcid}}"> {{package.pmcid}}</a></li>
   			{% endif %}
 
   			<!--Biorxiv - optional -->
-  			{% if software.biorxiv %}
-  			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{software.biorxiv}}" alt = "biorxiv preprint link: {{software.biorxiv}}"> {{software.biorxiv | split: "." | last }}</a></li>
+  			{% if package.biorxiv %}
+  			<li>Biorxiv Preprint: <a href="http://dx.doi.org/10.1101/{{package.biorxiv}}" alt = "biorxiv preprint link: {{package.biorxiv}}"> {{package.biorxiv | split: "." | last }}</a></li>
   			{% endif %}
 
   			<!--Arxiv - optional -->
-  			{% if software.arxiv %}
-  			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{software.arxiv}}" alt = "arxiv preprint link: {{software.arxiv}}"> {{software.arxiv}}</a></li>
+  			{% if package.arxiv %}
+  			<li>arXiv Preprint: <a href="https://arxiv.org/abs/{{package.arxiv}}" alt = "arxiv preprint link: {{package.arxiv}}"> {{package.arxiv}}</a></li>
   			{% endif %}
 
   			<!--Chemrxiv - optional -->
-  			{% if software.chemrxiv %}
-  			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{software.chemrxiv}}" alt = "chemrxiv preprint link: {{software.chemrxiv}}"> {{software.chemrxiv}}</a></li>
+  			{% if package.chemrxiv %}
+  			<li>ChemRxiv Preprint: <a href=" https://doi.org/10.26434/chemrxiv.{{package.chemrxiv}}" alt = "chemrxiv preprint link: {{package.chemrxiv}}"> {{package.chemrxiv}}</a></li>
   			{% endif %}
 
 
   			<!-- SBGrid Datasets - optional -->
-  			{% if software.data %}
-  			<li>Online Dataset{% if software.data.size > 1 %}s{% endif %}:
-  				{% if software.data.size > 1 %}
+  			{% if package.data %}
+  			<li>Online Dataset{% if package.data.size > 1 %}s{% endif %}:
+  				{% if package.data.size > 1 %}
   				<ul>
-  					{% for dataset in software.data %}
+  					{% for dataset in package.data %}
   					<li><a href="http://dx.doi.org/{{dataset}}" alt = "sbgrid data repository">doi:{{dataset}}</a></li>
   					{% endfor %}
   				</ul>
   				{% else %}
-  				<a href="http://dx.doi.org/{{software.data}}" alt = "sbgrid data repository">doi:{{software.data}}</a>
+  				<a href="http://dx.doi.org/{{package.data}}" alt = "sbgrid data repository">doi:{{package.data}}</a>
   				{% endif %}
   			</li>
   			{% endif %}
 
   			<!--zenodo records - optional-->
-  			{% if software.zenodo %}
-  			<li>Zenodo Record{% if software.zenodo.size > 1 %}s{% endif %}:
-  				{% for record in software.zenodo %}
+  			{% if package.zenodo %}
+  			<li>Zenodo Record{% if package.zenodo.size > 1 %}s{% endif %}:
+  				{% for record in package.zenodo %}
   				<a href="https://www.zenodo.org/record/{{record.code}}/">{{record.code}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
   				{% endfor %}
   			</li>
   {% endif %}
 
                           <!--Github - optional-->
-  {% if software.github %}
-  <li>{% if software.github.size > 1 %}GitHub Repositories:{%else%}GitHub Repository:{% endif %}
-  {% for record in software.github %}
+  {% if package.github %}
+  <li>{% if package.github.size > 1 %}GitHub Repositories:{%else%}GitHub Repository:{% endif %}
+  {% for record in package.github %}
   <a href="https://www.github.com/{{record.url}}/">{{record.url}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
   				{% endfor %}
   			</li>
   			{% endif %}
 
                                 <!--Github release - optional-->
-  {% if software.release %}
-  <li>{% if software.release.size > 1 %}GitHub Repositories:{%else%}Releases:{% endif %}
-  {% for record in software.release %}
+  {% if package.release %}
+  <li>{% if package.release.size > 1 %}GitHub Repositories:{%else%}Releases:{% endif %}
+  {% for record in package.release %}
   <a href="https://www.github.com/{{record.url}}/">{{record.url}}</a>{% if record.description %} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
   				{% endfor %}
   			</li>
   			{% endif %}
 
   <!--additional links - optional-->
-  {% if software.links %}
+  {% if package.links %}
   <br>
-  			<strong>Additional Link{% if software.links.size > 1 %}s{% endif %}</strong>
-  				{% for link in software.links %}
+  			<strong>Additional Link{% if package.links.size > 1 %}s{% endif %}</strong>
+  				{% for link in package.links %}
           <li><a href="{{link.url}}" alt="{{link.name}}">{{link.name}}</a></li>
           {% endfor %}
   			{% endif %}
