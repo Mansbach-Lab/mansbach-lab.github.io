@@ -1,1 +1,9 @@
-test
+---
+title: "deeptimeMSMs"
+authors: "**R. Mansbach**"
+pub_date: '2024-12-07'
+description: '/static/img/pub/2024_Menard.jpg'
+version: '0.0.1'
+links: 'https://github.com/Mansbach-Lab/deeptimeMSMs'
+description: 'A series of tutorials modeled after the (PyEmma Tutorials)[http://www.emma-project.org/latest/tutorial.html], but utilizing the more modern (deeptime)[https://deeptime-ml.github.io/latest/index.html] package infrastructure.'
+---
