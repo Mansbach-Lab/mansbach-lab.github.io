@@ -1,6 +1,6 @@
 ---
 layout: default
-title: what even
+title: hVAE MNIST Demo
 ---
 
 
