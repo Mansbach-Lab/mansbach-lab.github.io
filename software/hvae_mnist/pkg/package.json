@@ -1,0 +1,13 @@
+{
+  "name": "hVAE_rs",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "hVAE_rs_bg.wasm",
+    "hVAE_rs.js"
+  ],
+  "main": "hVAE_rs.js",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
