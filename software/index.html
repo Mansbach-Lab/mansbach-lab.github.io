@@ -84,6 +84,7 @@ group: software
             {% if package.release %}
             <li>{% if package.release.size > 1 %}GitHub Repositories:{%else%}Releases:{% endif %}
                 {% for record in package.release %}
+                <i>version {{record.version}}</i>
                 <a href="https://www.github.com/{{record.url}}/">{{record.url}}</a>{% if record.description and record.description != ""%} ({{record.description}}){% endif %}{% unless forloop.last %}, {% endunless %}
                 {% endfor %}
             </li>
