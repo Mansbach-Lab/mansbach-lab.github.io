@@ -1,0 +1,13 @@
+---
+title: "hVAE Mnist demo"
+authors: "**D. Perkov**"
+pub_date: '2026-03-25'
+image: '/static/img/software/hvae_demo.jpg'
+version: '0.0.1'
+github: 
+  - url : 'https://github.com/sevenpigeons/hVAE_rs'
+    description: ""
+description: 'A Rust port of the original hVAE codebase, for easier integration into web applications. [Demo](hvae_mnist).'
+#release: 
+#  - url: 'https://github.com/Mansbach-Lab/deeptimeMSMs/releases/tag/tutorial'
+---
