@@ -2,7 +2,7 @@
 title: "deeptimeMSMs"
 authors: "**R. Mansbach**"
 pub_date: '2024-12-07'
-description: '/static/img/software/msms-demo.png'
+image: '/static/img/software/msms-demo.png'
 version: '0.0.1'
 github: 
   - url : 'https://github.com/Mansbach-Lab/deeptimeMSMs'
