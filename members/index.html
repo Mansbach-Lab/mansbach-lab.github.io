@@ -22,7 +22,14 @@ The Mansbach lab welcomes people of any race, ethnicity, religion, national orig
                 {{member.position}} <br>
                 <em>{{member.email}}</em> <br>
                 {% if member.website %}
-                  <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website}}</a> <br>
+        <!-- Detects whether or not the website string starts with a https:// , and either removes it from display for a neater look, or appends it for the link to work properly -->
+                    {% assign protocol = member.website | split: "://" | first %}
+                  <a ><img class="inline-block mem-icon" src="/static/img/website_logo.svg"></a>
+                    {% if protocol == "https" %}
+                      <a style="overflow-wrap: break-word;" href= "{{member.website}}">{{member.website | split: "://" | last }}</a> <br>
+                    {% else %}
+                      <a style="overflow-wrap: break-word;" href= "https://{{member.website}}">{{member.website}}</a> <br>
+                    {% endif %}
                 {% endif %}
                 {% if member.orcid %}
                   <a href="http://orcid.org"><img class="inline-block mem-icon" src="/static/img/orcidid_logo.svg"></a>
