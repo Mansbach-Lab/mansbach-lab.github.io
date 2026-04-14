@@ -1,0 +1,13 @@
+---
+title: "MUC2 Coarse-Grained Simulations"
+authors: "**J. Lavoie**"
+pub_date: '2026-04-14'
+image: '/static/img/software/muc2_simulations.jpg'
+version: '1.0.0'
+github:
+  - url: 'https://github.com/Mansbach-Lab/muc2_simulations'
+    description: ""
+description: 'Coarse-grained molecular dynamics simulations of MUC2 mucin networks at varying resolutions and concentrations, with pore characterization and rheological analysis pipelines.'
+#release:
+#  - url: 'https://github.com/Mansbach-Lab/muc2_simulations/releases/tag/v1.0.0'
+---
