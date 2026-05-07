@@ -1,0 +1,15 @@
+---
+title: "Towards best practices in low-dimensional semi-supervised latent Bayesian optimization for the design of antimicrobial peptides"
+authors: "**J. Menard**, and **R. A. Mansbach**. "
+journal: 'Molecular Systems Design & Engineering'
+pub_date: '2026-05-07'
+image: '/static/img/pub/2026_Menard_lbo.jpg'
+arxiv: '2510.17569v3'
+zenodo:
+  - code: '17872449'
+  - description: 'Deep learning model checkpoints and dataset to train the models.'
+pdf: 
+links:
+  - name: Training and analysis code
+    url: https://github.com/Mansbach-Lab/compare-latent-spaces-amps/tree/main
+---
