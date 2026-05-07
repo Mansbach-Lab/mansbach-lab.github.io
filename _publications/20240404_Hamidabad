@@ -4,6 +4,10 @@ authors: "**M. N. Hamidabad**, **N. A. Watson**, **L. N. Wright**, and **R. A. M
 journal: 'ChemBioChem'
 pub_date: '2024-04-04'
 image: '/static/img/pub/2024_Hamidabad.jpg'
+biorxiv: '2024.01.25.577308v1'
+zenodo:
+  - code: '10558960'
+  - description: 'These datasets contain molecular dynamics trajectories, structural files, force field files, and Gromacs production input files of beta-sheet forming antimicrobial peptide/peptides (GL13K) in solution. The simulations were done in explicit water, but the water has been removed to make the files a reasonable size for upload.'
 pdf: 'https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cbic.202400088'
 links:
 ---
