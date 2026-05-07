@@ -6,4 +6,6 @@ pub_date: '2023-02-16'
 image: '/static/img/pub/2023_Renaud.jpeg'
 pdf: 'https://pubs.rsc.org/en/content/articlepdf/2023/dd/d2dd00091a'
 links:
+  - name: Associated Github Software Package
+  url: https://github.com/Mansbach-Lab/latent-spaces-amps
 ---
