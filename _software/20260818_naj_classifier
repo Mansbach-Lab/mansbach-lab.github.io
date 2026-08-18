@@ -1,0 +1,11 @@
+---
+title: "Classifying Antimicrobial Peptide Selectivity: A Machine Learning Approach to Balancing Antibacterial Activity and Host Toxicity "
+authors: "**Najlaa Achoual**"
+pub_date: '2026-08-17'
+image: '/static/img/naj-icon.png'
+version: '1.0.0'
+github:
+  - url: 'https://github.com/Mansbach-Lab/peptide-drug-classifier'
+    description: ""
+description: 'Classifying antimicrobial peptides into four activity/toxicity classes (Selective, Pure Hemolytic, Both Active/Toxic, Inactive) based on E. coli MIC and erythrocyte HC50 values, using physicochemical descriptors + SVM.'
+---
