@@ -3,7 +3,7 @@ name: Mohammadreza Niknam Hamidabad
 startdate: 2022-01-05
 enddate:
 image: /static/img/members/reza.jpg #365 x 365 pixels, 72 dpi
-altimage: picture of reza #365 x 365 pixels, 72 dpi
+#altimage: picture of reza #365 x 365 pixels, 72 dpi
 position: Doctoral Student
 #subsequent:  update once you become an alumnus
 pronouns: He/His/Him #personal pronouns

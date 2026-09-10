@@ -5,7 +5,7 @@ enddate: 2026-05-08
 image: /static/img/members/jo.jpg #365 x 365 pixels, 72 dpi
 #altimage: /static/img/members/LastName_pb.jpg #365 x 365 pixels, 72 dpi
 position: MSc student
-#subsequent:  update once you become an alumnus
+#subsequent:
 pronouns: They/Them #personal pronouns
 email: jlavoie97 (at) gmail.com #Preferred public email address 
 #scholar: XXXXXXXXXXXX #Google Scholar User ID

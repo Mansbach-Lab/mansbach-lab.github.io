@@ -1,11 +1,11 @@
 ---
 name: Vrinda Nair
 startdate: 2021-01-13
-enddate:
+enddate: 2026-05-30
 image: /static/img/members/Vrinda.jpg #365 x 365 pixels, 72 dpi
 altimage: picture of vrinda #365 x 365 pixels, 72 dpi
-position: Doctoral candidate
-#subsequent:  update once you become an alumnus
+position: Alumni
+# subsequent: 
 pronouns: She/Her #personal pronouns
 email: vrinda.nair (at) concordia.ca #Preferred public email address
 scholar: 39VXDbYAAAAJ&hl #Google Scholar User ID

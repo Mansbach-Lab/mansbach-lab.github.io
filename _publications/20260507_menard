@@ -8,8 +8,10 @@ arxiv: '2510.17569v3'
 zenodo:
   - code: '17872449'
   - description: 'Deep learning model checkpoints and dataset to train the models.'
-pdf: 
+pdf: https://pubs.rsc.org/me/article/11/7/616/1227679/Towards-best-practices-in-low-dimensional-semi
 links:
   - name: Training and analysis code
     url: https://github.com/Mansbach-Lab/compare-latent-spaces-amps/tree/main
+  - name: on the MSDE front cover
+    url: https://pubs.rsc.org/me/article/11/7/595/1275958/Front-cover
 ---

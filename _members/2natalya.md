@@ -3,7 +3,7 @@ name: Natalya Watson
 startdate: 2020-09-06
 enddate: 
 image: /static/img/members/natalya.jpg #365 x 365 pixels, 72 dpi
-altimage: picture of Natalya #365 x 365 pixels, 72 dpi
+#altimage: picture of Natalya #365 x 365 pixels, 72 dpi
 position: PhD student
 #subsequent:  update once you become an alumnus
 pronouns: She/Her/Hers #personal pronouns
