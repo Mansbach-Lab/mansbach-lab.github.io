@@ -51,6 +51,10 @@ The Mansbach lab welcomes people of any race, ethnicity, religion, national orig
                   <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
                   <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
                 {% endif %}
+                {% if member.bsky %}
+                  <img class="inline-block mem-icon" src="/static/img/bsky_logo.svg" alt="" aria-hidden="true">
+                  <a href= "https://bsky.app/profile/{{member.bsky}}"> {{member.bsky}} </a> <br>
+                {% endif %}
                 {% if member.github %}
                   <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
                   <a href= "http://github.com/{{member.github}}"> {{member.github}} </a> <br>
@@ -96,6 +100,10 @@ The Mansbach lab welcomes people of any race, ethnicity, religion, national orig
                 {% if member.twitter %}
                   <a href="http://twitter.com"><img class="inline-block mem-icon" src="/static/img/twitter2_logo.svg"></a>
                   <a href= "http://twitter.com/{{member.twitter}}"> @{{member.twitter}} </a> <br>
+                {% endif %}
+                {% if member.bsky %}
+                  <img class="inline-block mem-icon" src="/static/img/bsky_logo.svg" alt="" aria-hidden="true">
+                  <a href= "https://bsky.app/profile/{{member.bsky}}"> {{member.bsky}} </a> <br>
                 {% endif %}
                 {% if member.github %}
                   <a href="http://github.com"><img class="inline-bloc mem-icon" src="/static/img/github_logo.svg"></a>
