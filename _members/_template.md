@@ -12,6 +12,7 @@ scholar: XXXXXXXXXXXX #Google Scholar User ID
 website: https://website.com/
 UCSF: XXXXXXXX #UCSF Profile ID - Employees only
 twitter: username
+bsky: username
 linkedin: username
 github: username
 orcid: XXXX-XXXX-XXXX-XXXX
