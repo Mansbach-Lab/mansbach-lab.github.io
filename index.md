@@ -6,7 +6,7 @@ group: home
 
 # Welcome to the Mansbach Lab!
 
-![Mansbach lab poster](static/img/labgroup20230509.jpg){:style="max-width: 100%; height: auto;"}
+![Mansbach lab poster](static/img/labgroup20260917.jpg){:style="max-width: 100%; height: auto;"}
 
 {: .display-4}
 <br>
